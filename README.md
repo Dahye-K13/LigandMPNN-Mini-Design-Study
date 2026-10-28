@@ -11,3 +11,5 @@ This repository documents my first computational protein design project.
 3. Analyze designed sequences.
 4. Compare mutations around the ligand-binding environment.
 5. Interpret the results and limitations.
+
+Development environment setup completed.
