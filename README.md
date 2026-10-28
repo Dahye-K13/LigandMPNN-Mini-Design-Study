@@ -13,3 +13,5 @@ This repository documents my first computational protein design project.
 5. Interpret the results and limitations.
 
 Development environment setup completed.
+
+Explored PDB structure data and identified residues located within 5Å of a Zn ion.
