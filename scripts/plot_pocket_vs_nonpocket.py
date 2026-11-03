@@ -7,7 +7,7 @@ from pathlib import Path
 # 1. Load data
 # -----------------------------
 
-csv_file = "results/day4_pocket_mutation_summary.csv"
+csv_file = "results/pocket_mutation_summary.csv"
 
 df = pd.read_csv(csv_file)
 

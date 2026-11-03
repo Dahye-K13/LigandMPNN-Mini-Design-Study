@@ -6,8 +6,8 @@ from collections import Counter
 # 1. Load data
 # --------------------------------
 
-ranked_file = "results/day4_ranked_pocket_residues.csv"
-design_file = "results/day4_design_summary.csv"
+ranked_file = "results/ranked_pocket_residues.csv"
+design_file = "results/design_summary.csv"
 
 ranked = pd.read_csv(ranked_file)
 designs = pd.read_csv(design_file)
@@ -89,7 +89,7 @@ for _, row in top5.iterrows():
 result_df = pd.DataFrame(results)
 
 output_file = (
-    "results/day4_top5_pocket_substitutions.csv"
+    "results/top5_pocket_substitutions.csv"
 )
 
 result_df.to_csv(

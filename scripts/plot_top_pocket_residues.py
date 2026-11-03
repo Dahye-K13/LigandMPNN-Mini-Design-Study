@@ -7,7 +7,7 @@ from pathlib import Path
 # 1. Load ranked pocket residues
 # -----------------------------
 
-csv_file = "results/day4_ranked_pocket_residues.csv"
+csv_file = "results/ranked_pocket_residues.csv"
 
 df = pd.read_csv(csv_file)
 

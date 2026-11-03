@@ -4,7 +4,7 @@ from pathlib import Path
 
 def main():
     source = Path.home() / "LigandMPNN/outputs/8VEZ_day4/seqs/8VEZ.fa"
-    output = Path(__file__).resolve().parents[1] / "results/day4_design_summary.csv"
+    output = Path(__file__).resolve().parents[1] / "results/design_summary.csv"
     records = []
     for line in source.read_text().splitlines():
         line = line.strip()

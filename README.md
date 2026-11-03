@@ -247,16 +247,16 @@ protein-design/
 │   └── target/
 │
 ├── docs/
-│   ├── day3_sequence_comparison.md
-│   ├── day4_multiple_design.md
-│   ├── day4_pocket_mutations.md
-│   ├── day5_mutation_visualization.md
+│   ├── sequence_comparison.md
+│   ├── multiple_design.md
+│   ├── pocket_mutations.md
+│   ├── mutation_visualization.md
 │   ├── ligandmpnn_day3.md
 │   └── project_question.md
 │
 ├── figures/
-│   ├── day5_paired_mutation_rates.png
-│   ├── day5_residue_mutation_frequency.png
+│   ├── paired_mutation_rates.png
+│   ├── residue_mutation_frequency.png
 │   ├── pocket_vs_nonpocket_mutation_rates.png
 │   └── top_pocket_residue_mutation_frequency.png
 │
@@ -264,25 +264,25 @@ protein-design/
 │
 ├── results/
 │   ├── 8VEZ_pocket_residues.csv
-│   ├── day3_mutations.csv
-│   ├── day4_design_summary.csv
-│   ├── day4_pocket_mutation_summary.csv
-│   ├── day4_ranked_pocket_residues.csv
-│   ├── day4_residue_mutation_frequency.csv
-│   └── day4_top5_pocket_substitutions.csv
+│   ├── mutations.csv
+│   ├── design_summary.csv
+│   ├── pocket_mutation_summary.csv
+│   ├── ranked_pocket_residues.csv
+│   ├── residue_mutation_frequency.csv
+│   └── top5_pocket_substitutions.csv
 │
 ├── scripts/
-│   ├── analyze_day10_pocket_mutations.py
+│   ├── analyze_pocket_mutations.py
 │   ├── analyze_top_pocket_substitutions.py
 │   ├── compare_sequences.py
 │   ├── find_ligand_neighbors.py
 │   ├── find_zn_neighbors.py
 │   ├── inspect_pdb.py
-│   ├── plot_day11_mutations.py
+│   ├── plot_mutation_frequency.py
 │   ├── plot_pocket_vs_nonpocket.py
 │   ├── plot_top_pocket_residues.py
 │   ├── read_fasta.py
-│   └── summarize_day4_designs.py
+│   └── summarize_designs.py
 │
 ├── .gitignore
 └── README.md

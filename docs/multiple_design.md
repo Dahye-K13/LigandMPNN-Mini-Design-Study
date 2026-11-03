@@ -1,4 +1,4 @@
-# Day 4 - Multiple LigandMPNN Designs
+# Multiple LigandMPNN Designs
 
 ## Target
 - PDB: 8VEZ
@@ -16,7 +16,7 @@
 ## Results
 - Generated designs: 10
 - Reference sequence length: 115 residues
-- Summary: results/day4_design_summary.csv
+- Summary: results/design_summary.csv
 
 The summary includes overall confidence, ligand confidence,
 sequence recovery, mutation count, whole-sequence identity,
